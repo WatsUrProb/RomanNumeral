@@ -9,7 +9,7 @@ let romanArray=[];
 //Object for the simple numbers
 let simpleNumbers={
 }
-
+let timer = 0;
 let digitArr=[1,4,5,9,10,40,50,90,100,400,500,900,1000].reverse();
 let romanNumerals=["I","IV","V","IX","X","XL","L","XC","C","CD","D","CM","M"].reverse();
 
@@ -58,12 +58,12 @@ let biggestNo= digitArr[index]
 let newRoman = romanNumerals[index];
 romanArray.push(newRoman);
 let newNumber= newInput-biggestNo;
-;
+timer+=1500;
  const remainderOrNone = (newInput-biggestNo)=== 0 ? "":` Remainder is ${newInput-biggestNo}.
  `;
 setTimeout(() => {
     section.innerHTML += `<p class="animation">${biggestNo} is removed from ${newInput}.${remainderOrNone} Hence, ${newRoman} is added! </p>`; // Append the Roman numeral to section
-  }, 0);
+  }, timer);
 myFunction(newNumber)
 
 }
@@ -72,9 +72,17 @@ function reset(){
  numberInput.value="";
   romanArray=[];
   section.innerHTML=""
-  
   }
-  resetButton.addEventListener("click",reset)
+  
+
+
+
+
+
+
+
+  
+
 
 
 
