@@ -1,0 +1,138 @@
+body{
+    background-image: url(https://media.istockphoto.com/id/959104114/vector/light-colored-beige-vintage-paper.jpg?s=612x612&w=0&k=20&c=JvE0rI9Htw-dwm6VlxW7UVbHtxKi_SnMEjpvXfwISa8=);
+    align-items: center;
+  }
+  h1{
+   text-align: center;
+  font-family: Copperplate, Papyrus, fantasy;
+  background-color: white;
+    color:black;
+    opacity: 0.5;
+   text-decoration: overline;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  margin-right: 30px;
+  margin-left: 30px;
+  border-width: 5px 8px; 
+  border-radius: 15px;
+  border-style:solid;
+  font-size: 50px;
+  }
+  
+  h2{
+    margin-right: 5px;
+  margin-left: 5px;
+  text-align: center;
+  }
+  
+  .info{
+  background-color: black;
+    color:white;
+    opacity: 0.5;
+    border-top-style:groove;
+     border-bottom-style:groove;
+    border-width: 10px;
+    margin-right: 70px;
+  margin-left: 70px;
+  margin-bottom: 20px;
+  font-size:20px
+  
+  }
+  
+  .para{
+     color: white;
+     margin-bottom:40px;
+     margin-right:90px;
+     margin-left:90px;
+  }
+  #number-input{
+    text-align: center;
+    margin:1px;
+    
+  }
+  
+  .user-input{
+    
+     border-width:1px;
+    margin-left:30%;
+     padding:10px;
+  display: flex;
+    flex-direction:column;
+     border-radius: 5px;
+     font-size: 20px;
+  
+  }
+  
+  .number-input{
+  font-size: 20px;
+  box-sizing: border-box;
+  justify-content: center;
+    word-break: break-word;
+    border-style:solid;
+    
+    }
+  
+  .horizontal{
+  display: flex;
+    flex-direction:row;
+  gap: 30px;
+  margin-bottom: 30px;
+  }
+  
+  .convert-btn {
+    display: inline-block;
+    padding: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: black;
+    background-color: #bbc7be;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .convert-btn:hover {background-color: #f54b38}
+  
+  .convert-btn:active {
+    background-color: #f54b38;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  
+  .animation-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin-block-end: 1rem;
+    min-height: 20vh;
+    border-style:groove;
+    border-color:#bd9875;
+    border-width: 10px;
+    padding: 1rem;
+    width:50%;
+    margin:auto;
+    color: black;
+  }
+  
+  .output{
+    min-height:45px;
+    font-size:45px;
+    text-align:center;
+    margin:auto;
+    color: black;
+     border-bottom-style:solid;
+      font-family: Copperplate, Papyrus, fantasy;
+      padding: 15px 1px 1px;
+      width:60%;
+  }
+  .animation{
+    margin: 10px;
+    text-align: center;
+    font-size:20px;
+   color: black;
+     border-style:solid;
+     padding: 15px 10px;
+  }
