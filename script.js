@@ -58,11 +58,11 @@ let biggestNo= digitArr[index]
 let newRoman = romanNumerals[index];
 romanArray.push(newRoman);
 let newNumber= newInput-biggestNo;
-timer+=1500;
+timer+=500;
  const remainderOrNone = (newInput-biggestNo)=== 0 ? "":` Remainder is ${newInput-biggestNo}.
  `;
 setTimeout(() => {
-    section.innerHTML += `<p class="animation">${biggestNo} is removed from ${newInput}.${remainderOrNone} Hence, ${newRoman} is added! </p>`; // Append the Roman numeral to section
+    section.innerHTML += `<p class="animation">${biggestNo} is removed from ${newInput}. Hence, ${newRoman} is added! ${remainderOrNone}</p>`; // Append the Roman numeral to section
   }, timer);
 myFunction(newNumber)
 
@@ -73,7 +73,6 @@ function reset(){
   romanArray=[];
   section.innerHTML=""
   }
-  
 
 
 
